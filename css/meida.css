@@ -1,0 +1,324 @@
+
+@media (max-width: 1199.98px) {
+	 .package {
+    	margin-bottom: 60px;
+    }
+
+    #subunder {
+    	margin-top: 0px;
+    }
+    #subunders {
+    	margin-top: 0px;
+    }
+	.time-header .time-under .img {
+		display: none;
+	}
+}
+
+@media (max-width: 991.98px) {
+	#menuToggle {
+		display: flex !important;
+	}
+	ul.menu {
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: -100%;
+		width: 87%;
+		height: 100%;
+		background: rgb(3, 107, 185, 0.5);
+		z-index: 2;
+		display: block;
+		transition: all 0.7s;
+	}
+	ul.menu li {
+		margin-bottom: 20px;
+		background: #039eb93d;
+		padding: 10px 0 10px 0;
+		text-align: center;
+	}
+	.menu .ul li {
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		padding: 15px 0;
+		margin-bottom: 0;
+	}
+	.menu .ul li:hover {
+		background: #00ad80;
+	}
+	.menu .ul a:hover {
+		border-bottom: 0;
+	}
+	.menu .ul {
+		display: none ;
+		position: absolute;
+		left: -100%;
+		background: #00CF91;
+		top: 132px;
+		height: 220px;
+		width: 100%;
+		transition: all .4s;
+	}
+
+	.menu.open {
+		display: block !important;
+		left: 0;
+	}
+
+	nav.ul.open {
+		left: 0
+	}
+
+	.number {
+		display: none;
+	}
+
+	.logo-two img {
+		display:  none;
+	}
+
+	.menu .ul {
+		flex-direction: column;
+		z-index: 3;
+		justify-content: flex-start !important;
+	}
+	.menu .ul a {
+		margin-left: 20px;
+		color: #fff;
+
+	}
+
+	/**/
+	.heading .text {
+		padding-top: 15px;
+	}
+	.heading .text .font-weight-bold {
+		font-size: 72px;
+	}
+	.heading .text .font-weight-light {
+		font-size: 22px;
+	}
+	.heading {
+		background: url(../img/backgraund-headind.png) no-repeat center bottom /cover;
+		width: 100%;
+		height: 278px;
+	}
+
+	/**/
+	.ellipse-text {
+   		text-align: left;
+	}
+	.ellipse-text h2 {
+   		margin-bottom: 20px;
+    }
+    .ellipse-img img {
+    	width: 100%;
+    }
+
+	/**/
+	.u-wrapper img {
+		display: none;
+	}
+
+	.use .text h1 {
+		margin-bottom: 40px;
+	}
+	.use .text {
+		text-align: left;
+	}
+	.use .text p {
+		font-size: 17px;
+	}
+	
+
+	/**/
+	.c-wrap {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		max-width: 661px;
+		margin: 0 auto;
+	}
+
+	.c-item {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/**/
+	.grid-container .post-1 {
+		grid-row-end: 15;
+	}
+	.grid-grid .item5 {
+		grid-column: span 2;
+		grid-row: span 9;
+	}
+	.g-center img {
+		height: 100%
+	}
+	
+	/**/
+	.grid-container {
+    	display: none;
+    }
+
+
+    .package {
+    	margin-bottom: 60px;
+    }
+
+    #subunder {
+    	margin-top: 0px;
+    }
+    #subunders {
+    	margin-top: 0px;
+    }
+	.time-header .time-under .img {
+		display: none;
+	}
+
+
+	.time-header .row {
+		position: relative;
+	}
+
+
+	input.form-control {
+		margin-top: 20px;
+	}
+
+
+	.contacts img {
+		margin-right: 0;
+	}
+
+	.contacts-wrap {
+		justify-content: space-around !important;
+	}
+	.contacts span {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.header-top span {
+		display: none;
+	}
+	#menuToggle {
+		right: 18px
+	}
+		
+	/**/
+	.heading .text .font-weight-bold {
+		font-size: 36px;
+	}
+	.heading .text .font-weight-light {
+		display: none;
+	}
+	.heading .text {
+		padding-top: 70px;
+	}
+
+
+	/**/
+	 .column {
+    	flex-direction: column;
+    }
+
+    .page {
+    	height: 100%;
+    }
+    .c-wrap .c-item img {
+    	margin-bottom: 0;
+    }
+    .p-wrapper h1 {
+    	font-size: 25px;
+    }
+    .p-wrapper p {
+    	margin-bottom: 40px;
+    }
+
+
+	.c-wrap .c-item img {
+		margin-bottom: 40px;
+	}
+
+	.c-wrap .c-item span {
+		margin-bottom: 40px;
+	}
+
+    .c-wrap	{
+    	max-width: 461px;
+    }
+
+
+
+    
+    .grid-grid {
+    	display: none;
+    }
+
+
+    .package {
+    	min-height: 300px;
+    }
+
+    .f-wrapper {
+    	margin-top: 40px;
+    	flex-direction: column;
+    }
+    .f-item:nth-child(3) {
+    	margin-top: 50px;
+    }
+   .f-item:nth-child(4) {
+    	margin-top: 50px;
+    }
+    .f-item:nth-child(2) {
+    	margin-top: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+	
+	
+	.g-center .play img {
+		margin: 119px auto;
+	}
+
+
+	.paints .request span {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 414.98px) {
+	#menuToggle {
+		right: 5px
+	}
+
+	.c-wrap  {
+		justify-content: center;
+		flex-direction: column;
+		width: 70%;
+	}
+	.header-text h1 {
+		font-size: 26px;
+		font-weight: 400;
+		letter-spacing: 5px;
+		margin-top: 60px;
+	}
+
+
+
+	.g-center .play img {
+		margin: 92px auto;
+	}
+
+
+	.package {
+		min-height: 350px;
+	}
+	.package-subheader img {
+		width: 100% !important
+	}
+}
+
